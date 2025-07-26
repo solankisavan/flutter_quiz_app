@@ -1,0 +1,225 @@
+{
+  "category": "Kotlin",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is Kotlin?",
+      "options": [
+        "A game engine",
+        "A database",
+        "A programming language",
+        "An operating system"
+      ],
+      "answer": "A programming language"
+    },
+    {
+      "id": 2,
+      "question": "Which company developed Kotlin?",
+      "options": [
+        "Microsoft",
+        "JetBrains",
+        "Apple",
+        "Google"
+      ],
+      "answer": "JetBrains"
+    },
+    {
+      "id": 3,
+      "question": "What is the file extension of Kotlin files?",
+      "options": [
+        ".kot",
+        ".kt",
+        ".kotlin",
+        ".klt"
+      ],
+      "answer": ".kt"
+    },
+    {
+      "id": 4,
+      "question": "Which keyword is used to define a function in Kotlin?",
+      "options": [
+        "function",
+        "def",
+        "fun",
+        "fn"
+      ],
+      "answer": "fun"
+    },
+    {
+      "id": 5,
+      "question": "How do you declare a read-only variable in Kotlin?",
+      "options": [
+        "var",
+        "val",
+        "const",
+        "let"
+      ],
+      "answer": "val"
+    },
+    {
+      "id": 6,
+      "question": "What is the default visibility modifier in Kotlin?",
+      "options": [
+        "private",
+        "protected",
+        "public",
+        "internal"
+      ],
+      "answer": "public"
+    },
+    {
+      "id": 7,
+      "question": "Which symbol is used for string templates in Kotlin?",
+      "options": [
+        "%",
+        "&",
+        "$",
+        "#"
+      ],
+      "answer": "$"
+    },
+    {
+      "id": 8,
+      "question": "Which keyword is used to inherit a class in Kotlin?",
+      "options": [
+        "inherits",
+        "extend",
+        "extends",
+        ":"
+      ],
+      "answer": ":"
+    },
+    {
+      "id": 9,
+      "question": "What does the Elvis operator (?:) do in Kotlin?",
+      "options": [
+        "Performs safe type casting",
+        "Assigns null values",
+        "Provides a default value when the expression is null",
+        "Checks type equality"
+      ],
+      "answer": "Provides a default value when the expression is null"
+    },
+    {
+      "id": 10,
+      "question": "Which keyword makes a class non-inheritable in Kotlin?",
+      "options": [
+        "abstract",
+        "sealed",
+        "final",
+        "static"
+      ],
+      "answer": "final"
+    },
+    {
+      "id": 11,
+      "question": "How to declare a nullable variable in Kotlin?",
+      "options": [
+        "var x: String?",
+        "var x = null",
+        "x = nil",
+        "nullable x"
+      ],
+      "answer": "var x: String?"
+    },
+    {
+      "id": 12,
+      "question": "What is the purpose of 'lateinit' modifier?",
+      "options": [
+        "Initializes variables at compile time",
+        "Initializes final variables",
+        "Allows initializing non-null variables later",
+        "Declares static variables"
+      ],
+      "answer": "Allows initializing non-null variables later"
+    },
+    {
+      "id": 13,
+      "question": "Which function is used to print to the console in Kotlin?",
+      "options": [
+        "System.out.println",
+        "echo",
+        "console.log",
+        "println"
+      ],
+      "answer": "println"
+    },
+    {
+      "id": 14,
+      "question": "Which is a valid collection in Kotlin?",
+      "options": [
+        "dict",
+        "array",
+        "set",
+        "map"
+      ],
+      "answer": "map"
+    },
+    {
+      "id": 15,
+      "question": "What is a data class in Kotlin used for?",
+      "options": [
+        "UI rendering",
+        "Animation",
+        "Holding data/state",
+        "Networking"
+      ],
+      "answer": "Holding data/state"
+    },
+    {
+      "id": 16,
+      "question": "Which keyword is used for inheritance in class definition?",
+      "options": [
+        ":",
+        "extends",
+        "implements",
+        "inherit"
+      ],
+      "answer": ":"
+    },
+    {
+      "id": 17,
+      "question": "Which feature allows removing boilerplate code for getters and setters?",
+      "options": [
+        "Extension function",
+        "Properties",
+        "Delegates",
+        "Lambdas"
+      ],
+      "answer": "Properties"
+    },
+    {
+      "id": 18,
+      "question": "What is the use of 'is' keyword in Kotlin?",
+      "options": [
+        "For loops",
+        "Smart casting",
+        "Type checking",
+        "Object creation"
+      ],
+      "answer": "Type checking"
+    },
+    {
+      "id": 19,
+      "question": "How can you handle null pointer exceptions in Kotlin safely?",
+      "options": [
+        "Using try-catch",
+        "Using safe call operator",
+        "Using 'assert'",
+        "Using requireNotNull"
+      ],
+      "answer": "Using safe call operator"
+    },
+    {
+      "id": 20,
+      "question": "What is the output of: println(\"${2 + 2}\")?",
+      "options": [
+        "2 + 2",
+        "22",
+        "4",
+        "Error"
+      ],
+      "answer": "4"
+    }
+  ]
+}
