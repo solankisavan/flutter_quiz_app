@@ -3,6 +3,8 @@ import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
 import 'package:quiz_rush/views/quiz_screen.dart';
 
+import '../controller/activity_controller.dart';
+
 class DashboardScreen extends StatelessWidget {
   final List<Map<String, dynamic>> categories = [
     {"icon": "assets/kotlin.png", "label": "KOTLIN"},
@@ -12,16 +14,8 @@ class DashboardScreen extends StatelessWidget {
     {"icon": "assets/cpp.png", "label": "C++"},
     {"icon": "assets/python.png", "label": "PYTHON"},
   ];
+  final activityController = Get.put(ActivityController());
 
-  final List<Map<String, dynamic>> activity = [
-    {"label": "KOTLIN", "score": 20, "color": Colors.greenAccent},
-
-    {"label": "HTML", "score": 26, "color": Colors.redAccent},
-    {"label": "Js", "score": 20, "color": Colors.amber},
-    {"label": "REACT", "score": 25, "color": Colors.cyan},
-    {"label": "CPP", "score": 27, "color": Colors.blueGrey},
-    {"label": "PYTHON", "score": 22, "color": Colors.purple},
-  ];
 
   @override
   Widget build(BuildContext context) {
@@ -195,7 +189,7 @@ class DashboardScreen extends StatelessWidget {
                 style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
               ),
               const SizedBox(height: 8),
-              ...activity.map((item) => ActivityCard(item: item)),
+              ...activityController.activity.map((item) => ActivityCard(item: item)),
             ],
           ),
         ),
@@ -246,7 +240,7 @@ class ActivityCard extends StatelessWidget {
                   item['label'],
                   style: TextStyle(fontWeight: FontWeight.bold),
                 ),
-                Text("30 Question", style: TextStyle(fontSize: 12)),
+                Text(item['totalScore'].toString(), style: TextStyle(fontSize: 12)),
               ],
             ),
           ),

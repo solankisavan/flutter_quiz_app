@@ -3,10 +3,12 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:quiz_rush/views/result_screen.dart';
 
+import '../controller/activity_controller.dart';
 import '../controller/quiz_controller.dart';
 
 class QuizScreen extends StatelessWidget {
   final controller = Get.put(QuizController());
+  final activityController = Get.put(ActivityController());
 
   @override
   Widget build(BuildContext context) {
@@ -37,6 +39,8 @@ class QuizScreen extends StatelessWidget {
                     onPressed: () {
                       int score = c.calculateScore();
                       int total = c.quizData.length;
+                      activityController.updateActivity(category, score,total);
+
                       Get.off(
                         () => ResultScreen(
                           score: score,
