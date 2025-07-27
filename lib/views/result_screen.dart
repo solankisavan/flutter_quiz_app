@@ -70,7 +70,7 @@ class _ResultScreenState extends State<ResultScreen> {
                     decoration: const BoxDecoration(
                       shape: BoxShape.circle,
                       gradient: LinearGradient(
-                        colors: [Color(0xFF4EA1FF), Color(0xFF0C47A1)],
+                        colors: [Color(0xFF4EA1FF), Color(0xFF1559D6)],
                         begin: Alignment.topCenter,
                         end: Alignment.bottomCenter,
                       ),
@@ -80,7 +80,7 @@ class _ResultScreenState extends State<ResultScreen> {
                         width: circleSize * 0.85,
                         height: circleSize * 0.85,
                         decoration: const BoxDecoration(
-                          color: Color(0xFF0C47A1),
+                          color: Color(0xFF1559D6),
                           shape: BoxShape.circle,
                         ),
                         child: Center(
@@ -112,7 +112,7 @@ class _ResultScreenState extends State<ResultScreen> {
                   const Text(
                     "Congratulation",
                     style: TextStyle(
-                      color: Color(0xFF0C47A1),
+                      color: Color(0xFF1559D6),
                       fontSize: 24,
                       fontWeight: FontWeight.bold,
                     ),
@@ -121,7 +121,7 @@ class _ResultScreenState extends State<ResultScreen> {
                   Text(
                     "Great job, ${widget.userName}! You Did It",
                     textAlign: TextAlign.center,
-                    style: const TextStyle(color: Color(0xFF0C47A1), fontSize: 16),
+                    style: const TextStyle(color: Color(0xFF1559D6), fontSize: 16),
                   ),
 
                   SizedBox(height: size.height * 0.08),
@@ -131,7 +131,7 @@ class _ResultScreenState extends State<ResultScreen> {
                     height: size.height * 0.065,
                     child: ElevatedButton(
                       style: ElevatedButton.styleFrom(
-                        backgroundColor: const Color(0xFF0C47A1),
+                        backgroundColor: const Color(0xFF1559D6),
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(8),
                         ),
@@ -151,7 +151,7 @@ class _ResultScreenState extends State<ResultScreen> {
                     height: size.height * 0.065,
                     child: ElevatedButton(
                       style: ElevatedButton.styleFrom(
-                        backgroundColor: const Color(0xFF0C47A1),
+                        backgroundColor: const Color(0xFF1559D6),
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(8),
                         ),
